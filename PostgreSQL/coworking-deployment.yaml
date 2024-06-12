@@ -30,8 +30,8 @@ spec:
     spec:
       containers:
       - name: coworking
-        image: 089597541794.dkr.ecr.us-east-1.amazonaws.com/coworking-checkin:18
-        imagePullPolicy: IfNotPresen
+        image: 275731848280.dkr.ecr.us-east-1.amazonaws.com/coworking:1
+        imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
             path: /health_check
